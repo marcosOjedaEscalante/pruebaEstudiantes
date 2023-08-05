@@ -1,7 +1,6 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../database/database.js";
 
-
 const Curso = sequelize.define('Curso', {
     codigo_curso: {
         type: DataTypes.STRING(30),

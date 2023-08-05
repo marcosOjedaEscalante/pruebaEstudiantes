@@ -38,10 +38,6 @@ Estudiante.belongsTo(Curso, {
     targetKey: 'codigo_curso'
 });
 
-const esteudiantes = await Estudiante.findAll({
-    include: Curso
-});
-
 export{
     Estudiante
 }
